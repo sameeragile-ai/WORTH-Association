@@ -1,0 +1,213 @@
+export const JOB_CATEGORIES = ['All Categories', 'Hotel & Lodging', 'Culinary & Beverage', 'Tourism & Marketing', 'Recreation & Parks'];
+export const JOB_LOCATIONS = ['All Locations', 'Vancouver, BC', 'Whistler, BC', 'Victoria, BC', 'Kelowna / Okanagan, BC', 'Remote / Hybrid (BC)'];
+export const JOB_TYPES = ['All Types', 'Full-time', 'Part-time', 'Contract', 'Executive'];
+
+export const JOBS = [
+  {
+    id: 'job-01',
+    title: 'Assistant Director of Food & Beverage',
+    company: 'Fairmont Pacific Rim',
+    location: 'Vancouver, BC',
+    category: 'Culinary & Beverage',
+    type: 'Full-time',
+    salary: '$88,000 – $98,000 CAD / year + benefits',
+    postedDate: '2 days ago',
+    featured: true,
+    description:
+      'Fairmont Pacific Rim is seeking a forward-thinking Assistant Director of Food & Beverage to champion guest culinary experiences across Botanist, The Lobby Lounge, and private banqueting.',
+    responsibilities: [
+      'Lead and mentor a department of over 120 hospitality colleagues and department managers',
+      'Oversee labour scheduling, cost-of-goods analysis, and menu pricing strategy',
+      'Champion inclusive workplace standards, psychological safety, and leadership development',
+      'Collaborate closely with Executive Chef Hector Laguna on seasonal dining initiatives',
+    ],
+    requirements: [
+      'Minimum 4 years leadership experience in luxury hotel food and beverage operations',
+      'Strong proficiency in Birchstreet, Micros Symphony, and labour forecasting',
+      'Proven track record of mentorship, staff retention, and community engagement',
+      'Serving It Right and FoodSafe Level 2 certification required',
+    ],
+    perks: [
+      'Comprehensive extended health and dental benefits package',
+      'Global Accor hotel travel discounts and dining privileges',
+      'Annual education and professional development allowance ($2,500)',
+      'Subsidized transit pass or downtown parking',
+    ],
+    applyEmail: 'careers.pacificrim@fairmont.com',
+  },
+  {
+    id: 'job-02',
+    title: 'Director of Destination Marketing',
+    company: 'Destination Greater Victoria',
+    location: 'Victoria, BC',
+    category: 'Tourism & Marketing',
+    type: 'Executive',
+    salary: '$110,000 – $125,000 CAD / year',
+    postedDate: '4 days ago',
+    featured: true,
+    description:
+      'Destination Greater Victoria is looking for an experienced, visionary marketing leader to guide our global destination branding, regenerative tourism initiatives, and regional campaign strategies.',
+    responsibilities: [
+      'Develop integrated brand marketing strategies across North American and international markets',
+      'Lead a high-performing creative team of 8 across digital, content, PR, and analytics',
+      'Manage multi-million dollar annual marketing budgets and public tourism funding reports',
+      'Engage Indigenous tourism partners, municipal stakeholders, and regional operators',
+    ],
+    requirements: [
+      '7+ years progressive marketing leadership in tourism, hospitality, or consumer brand storytelling',
+      'Demonstrated commitment to sustainable, regenerative tourism practices',
+      'Exceptional stakeholder presentation skills and board reporting experience',
+    ],
+    perks: [
+      'Hybrid flexible work policy (2 days in-office in downtown Victoria)',
+      'Four weeks paid vacation + wellness days',
+      'Generous pension plan with employer matching',
+    ],
+    applyEmail: 'talent@tourismvictoria.com',
+  },
+  {
+    id: 'job-03',
+    title: 'Executive Pastry Chef',
+    company: 'Hawksworth Restaurant Group',
+    location: 'Vancouver, BC',
+    category: 'Culinary & Beverage',
+    type: 'Full-time',
+    salary: '$75,000 – $85,000 CAD / year',
+    postedDate: '1 week ago',
+    featured: true,
+    description:
+      'Lead the pastry program for one of Canada’s most celebrated culinary flagships. We are looking for an artistic, disciplined pastry leader passionate about local Pacific Northwest ingredients.',
+    responsibilities: [
+      'Direct recipe development for plated restaurant desserts, afternoon tea, and catering events',
+      'Train and supervise apprentice pastry chefs and culinary students',
+      'Maintain food cost targets and rigorous quality control',
+    ],
+    requirements: [
+      'Red Seal Pastry Chef credential or equivalent formal culinary training',
+      '3+ years in a senior pastry chef role in fine dining or high-volume luxury boutique venues',
+      'Passion for seasonal fruit preservation, sourdough, and modern plating techniques',
+    ],
+    perks: [
+      'Extended health benefits after 90 days',
+      'Dining privileges across all Hawksworth Group establishments',
+      'Collaborative kitchen culture committed to reasonable weekly hour caps',
+    ],
+    applyEmail: 'kitchen@hawksworthgroup.com',
+  },
+  {
+    id: 'job-04',
+    title: 'Recreation & Community Programming Supervisor',
+    company: 'City of Vancouver / Vancouver Park Board',
+    location: 'Vancouver, BC',
+    category: 'Recreation & Parks',
+    type: 'Full-time',
+    salary: '$82,000 – $91,000 CAD / year',
+    postedDate: '1 week ago',
+    featured: false,
+    description:
+      'Supervise community recreation services, fitness facilities, and inclusive youth and seniors programming across community centres in East Vancouver.',
+    responsibilities: [
+      'Plan, coordinate, and supervise community recreation schedules, aquatic staff, and fitness leads',
+      'Ensure programs remain accessible, equitable, and welcoming to diverse socio-economic groups',
+      'Liaise with community centre associations, volunteers, and local arts groups',
+    ],
+    requirements: [
+      'Degree or diploma in Recreation Leadership, Kinesiology, or Public Administration',
+      'Experience supervising unionized municipal staff (CUPE 15 preferred)',
+      'Current Standard First Aid and CPR-C certification',
+    ],
+    perks: [
+      'Municipal Pension Plan (MPP)',
+      'Earned Day Off (EDO) schedule structure',
+      'Comprehensive dental, health, and life insurance',
+    ],
+    applyEmail: 'recruitment@vancouver.ca',
+  },
+  {
+    id: 'job-05',
+    title: 'Guest Experience & Front Office Manager',
+    company: 'Nita Lake Lodge',
+    location: 'Whistler, BC',
+    category: 'Hotel & Lodging',
+    type: 'Full-time',
+    salary: '$68,000 – $76,000 CAD / year + staff housing options',
+    postedDate: '2 weeks ago',
+    featured: false,
+    description:
+      'Whistler’s only lakeside boutique resort is hiring a Front Office Manager to lead our front desk, concierge, and valet teams with genuine warmth and alpine hospitality.',
+    responsibilities: [
+      'Lead day-to-day front office operations and VIP guest recognition programs',
+      'Manage room allocations, yield optimization, and guest feedback metrics',
+      'Train seasonal international and local team members',
+    ],
+    requirements: [
+      '2+ years front desk supervisory experience in boutique hotel or resort properties',
+      'Experience with Opera PMS or Cloudbeds systems',
+      'Energetic attitude and love for alpine lifestyle and outdoors',
+    ],
+    perks: [
+      'Staff housing assistance located in Whistler Creekside',
+      'Whistler Blackcomb season ski pass subsidy',
+      'Spa and dining discounts at Aura Restaurant and Cure Lounge',
+    ],
+    applyEmail: 'hr@nitalakelodge.com',
+  },
+  {
+    id: 'job-06',
+    title: 'Wine Program Manager & Sommelier',
+    company: 'CedarCreek Estate Winery',
+    location: 'Kelowna / Okanagan, BC',
+    category: 'Culinary & Beverage',
+    type: 'Full-time',
+    salary: '$65,000 – $74,000 CAD / year + bonus',
+    postedDate: '2 weeks ago',
+    featured: false,
+    description:
+      'Lead wine education and guest tastings at Home Block Restaurant and CedarCreek tasting room, showcasing organic viticulture and Okanagan terroir.',
+    responsibilities: [
+      'Conduct VIP winery tastings, private cellar tours, and wine club masterclasses',
+      'Partner with culinary team on monthly wine and food pairing menus',
+      'Train service staff on vintage variations and biodynamic farming philosophy',
+    ],
+    requirements: [
+      'WSET Level 3 or CMS Certified Sommelier certification',
+      'Enthusiastic educator who makes wine approachable and engaging',
+      'Valid BC driver’s license and Serving It Right',
+    ],
+    perks: [
+      'Annual wine allocation stipend and employee purchase discounts',
+      'Tuition support for Diploma / Advanced sommelier studies',
+      'Relocation assistance to Kelowna considered for exceptional candidates',
+    ],
+    applyEmail: 'careers@cedarcreek.bc.ca',
+  },
+  {
+    id: 'job-07',
+    title: 'Tourism Content & Digital Coordinator',
+    company: 'Indigenous Tourism Association of BC (ITBC)',
+    location: 'Remote / Hybrid (BC)',
+    category: 'Tourism & Marketing',
+    type: 'Full-time',
+    salary: '$58,000 – $66,000 CAD / year',
+    postedDate: '3 weeks ago',
+    featured: false,
+    description:
+      'Support storytelling, digital media channels, and community asset collection for Indigenous-owned tourism operators across British Columbia.',
+    responsibilities: [
+      'Curate authentic social media content, blog features, and seasonal itineraries',
+      'Travel to regional Indigenous operators to capture photo and video assets',
+      'Coordinate media and travel influencer hosting itineraries',
+    ],
+    requirements: [
+      '2+ years experience in content creation, photography, or social media management',
+      'Deep cultural awareness, humility, and understanding of BC First Nations territories',
+      'Strong copywriting and visual storytelling skills',
+    ],
+    perks: [
+      '100% remote-flexible anywhere in British Columbia',
+      'Meaningful community-rooted purpose supporting cultural revitalization',
+      'Comprehensive health coverage',
+    ],
+    applyEmail: 'info@indigenousbc.com',
+  },
+];

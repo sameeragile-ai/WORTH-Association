@@ -1,0 +1,175 @@
+import IMAGES from './images.js';
+import { PRICING } from './pricing.js';
+
+export const EVENTS = [
+  {
+    id: 'yes-shef-2026',
+    title: 'Yes Shef Vancouver 2026',
+    slug: 'yes-shef-vancouver',
+    category: 'Signature Gala',
+    date: 'November 18, 2026',
+    time: '5:30 PM – 10:00 PM PST',
+    targetDateIso: '2026-11-18T17:30:00-08:00',
+    venue: 'Fairmont Pacific Rim',
+    address: '1038 Canada Place, Vancouver, BC',
+    tagline: 'Celebrating British Columbia’s top female chefs, sommeliers, and hospitality leaders',
+    description:
+      'Yes Shef Vancouver is WORTH Association’s premier annual culinary celebration. Join over 400 hospitality professionals, food enthusiasts, and industry allies for an unforgettable evening highlighting the artistry and leadership of women in food, beverage, and hotel excellence.',
+    fullDescription:
+      'Now in its landmark year, Yes Shef transforms the grand ballroom of Fairmont Pacific Rim into an experiential tasting pavilion. Over 15 acclaimed female executive chefs, pastry pioneers, lead sommeliers, and master mixologists partner together across interactive pairing stations. The evening honors community impact, raises funds for WORTH scholarships, and features our 2026 Trailblazer of the Year award ceremony.',
+    image: IMAGES.yesShefEvent,
+    isFeatured: true,
+    status: 'Tickets on Sale',
+    pricingTiers: PRICING.events.yesShef,
+    highlights: [
+      '15+ live culinary tasting stations from top BC restaurants',
+      'Curated BC VQA wines, zero-proof botanicals, and craft cocktails',
+      'Live award ceremony honoring emerging chefs and industry mentors',
+      'Silent auction supporting 2027 WORTH educational scholarships',
+    ],
+  },
+  {
+    id: 'summit-2027',
+    title: 'WORTH Annual Leadership Summit 2027',
+    slug: 'leadership-summit-2027',
+    category: 'Full-Day Conference',
+    date: 'March 25, 2027',
+    time: '8:30 AM – 5:30 PM PST',
+    targetDateIso: '2027-03-25T08:30:00-07:00',
+    venue: 'Vancouver Convention Centre West',
+    address: '1055 Canada Place, Vancouver, BC',
+    tagline: 'Leading with resilience, empathy, and operational brilliance',
+    description:
+      'Western Canada’s largest gathering dedicated exclusively to elevating women and gender-diverse professionals in tourism, culinary arts, hotel operations, and recreation leadership.',
+    fullDescription:
+      'A full day of transformative keynotes, pragmatic panel discussions, and intimate executive roundtables. Connect with over 500 women leaders from across British Columbia, Alberta, and the Pacific Northwest.',
+    image: IMAGES.conferenceSpeaker,
+    isFeatured: false,
+    status: 'Early Bird Open',
+    pricingTiers: PRICING.events.summit,
+    highlights: [
+      '3 Keynote addresses by internationally renowned tourism visionaries',
+      '6 Breakout masterclasses on finance, crisis management, and culture',
+      'Plated networking luncheon prepared by VCC culinary team',
+      'Evening celebration mixer with views of Burrard Inlet and North Shore mountains',
+    ],
+  },
+  {
+    id: 'worthshop-dec-2026',
+    title: 'WORTHshop: Financial Literacy for Beverage Directors & Managers',
+    slug: 'worthshop-financial-literacy',
+    category: 'Interactive Masterclass',
+    date: 'December 3, 2026',
+    time: '10:00 AM – 11:30 AM PST',
+    targetDateIso: '2026-12-03T10:00:00-08:00',
+    venue: 'Virtual (Interactive Zoom Workshop)',
+    address: 'Online Link provided upon registration',
+    tagline: 'Demystifying pour costs, inventory turnover, and beverage P&Ls',
+    description:
+      'A hands-on, spreadsheet-forward workshop showing beverage directors, head bartenders, and dining room managers how to model profitable, creative beverage programs.',
+    fullDescription:
+      'Taught by certified sommelier and former hotel food and beverage director Christine Alvarez. Attendees receive customizable Excel/Google Sheets cost calculators to use immediately.',
+    image: IMAGES.femaleMixologist,
+    isFeatured: false,
+    status: 'Register Now',
+    pricingTiers: [
+      {
+        id: 'ws-pass',
+        name: 'Workshop Pass',
+        price: 45,
+        priceFormatted: '$45',
+        description: 'Includes live session, spreadsheet template files, and 12-month recording access.',
+        features: [
+          'Live 90-minute interactive masterclass',
+          'Downloadable beverage P&L spreadsheet template',
+          '15-minute open Q&A with instructor Christine Alvarez',
+          'Recording access inside the WORTH Resource Hub',
+        ],
+        isPopular: true,
+      },
+    ],
+    highlights: [
+      'Understand how to compute actual vs theoretical beverage margins',
+      'Negotiating supplier allocations and distributor incentives',
+      'How to present financial forecasts clearly to general managers',
+    ],
+  },
+  {
+    id: 'mentorship-welcome-2027',
+    title: 'Mentorship Program Cohort Welcome Night',
+    slug: 'mentorship-cohort-welcome',
+    category: 'Member Social',
+    date: 'January 14, 2027',
+    time: '6:00 PM – 8:30 PM PST',
+    targetDateIso: '2027-01-14T18:00:00-08:00',
+    venue: 'Botanist Bar & Dining Room',
+    address: '1038 Canada Place, Vancouver, BC',
+    tagline: 'Kicking off the 2027 mentorship cohort with intentional in-person connection',
+    description:
+      'An intimate evening bringing together accepted 2027 mentees and their executive mentors for a warm welcome toast, cohort orientation, and structured goal-setting.',
+    fullDescription:
+      'Open to accepted cohort participants and alumni. An opportunity to establish personal rapport in a relaxed, celebratory atmosphere.',
+    image: IMAGES.mentorshipMeeting,
+    isFeatured: false,
+    status: 'Cohort RSVP',
+    pricingTiers: [
+      {
+        id: 'cohort-free',
+        name: 'Cohort Pass',
+        price: 0,
+        priceFormatted: 'Free (Cohort Members)',
+        description: 'Included with 2027 Mentorship Program enrollment.',
+        features: [
+          'Welcome drinks & curated canapés by Botanist culinary team',
+          'Mentor-mentee introduction & orientation packet',
+          'Goal setting workshop led by Joanna Vance',
+        ],
+        isPopular: true,
+      },
+    ],
+    highlights: [
+      'Meet your paired mentor face-to-face',
+      'Receive official WORTH Mentorship Workbook',
+      'Connect with the broader 100+ member cohort',
+    ],
+  },
+  {
+    id: 'whistler-breakfast-2027',
+    title: 'Women in Mountain Tourism Breakfast (Whistler)',
+    slug: 'whistler-mountain-tourism-breakfast',
+    category: 'Regional Roundtable',
+    date: 'February 18, 2027',
+    time: '7:45 AM – 10:00 AM PST',
+    targetDateIso: '2027-02-18T07:45:00-08:00',
+    venue: 'Fairmont Chateau Whistler',
+    address: '4599 Chateau Blvd, Whistler, BC',
+    tagline: 'Addressing seasonal retention, housing equity, and resort leadership',
+    description:
+      'A candid morning roundtable for women working across alpine recreation, ski operations, resort hotels, and regional destination marketing.',
+    fullDescription:
+      'Featuring an executive panel of female general managers and resort directors discussing sustainable workforce initiatives and community development.',
+    image: IMAGES.tourismRecreation,
+    isFeatured: false,
+    status: 'Registration Open',
+    pricingTiers: [
+      {
+        id: 'whistler-tix',
+        name: 'Breakfast Registration',
+        price: 55,
+        priceFormatted: '$55',
+        description: 'Hot breakfast buffet and full access to panel discussions.',
+        features: [
+          'Full Pacific Northwest breakfast buffet',
+          'Executive panel discussion + audience Q&A',
+          'Regional networking directory',
+        ],
+        isPopular: true,
+      },
+    ],
+    highlights: [
+      'Panel of Whistler and Sea-to-Sky female resort executives',
+      'Networking with mountain recreation and tourism leads',
+      'Direct discussion on workforce sustainability',
+    ],
+  },
+];

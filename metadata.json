@@ -1,0 +1,6 @@
+{
+  "name": "WORTH Association | Women of Recreation, Tourism & Hospitality",
+  "description": "Educating, elevating, and engaging women and gender-diverse leaders across recreation, tourism, and hospitality through mentorship, leadership cohorts, and community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
